@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title description">
+  <title id="title">Sample project diagram</title>
+  <desc id="description">A neutral diagram connecting a sensor, processing step, and dashboard.</desc>
+  <rect width="1200" height="675" fill="#161b22"/>
+  <g fill="none" stroke="#d8dee9" stroke-width="4">
+    <rect x="110" y="245" width="220" height="160" rx="18"/>
+    <rect x="490" y="245" width="220" height="160" rx="18"/>
+    <rect x="870" y="245" width="220" height="160" rx="18"/>
+    <path d="M330 325h160m220 0h160" stroke="#7fdbca"/>
+    <path d="m468 307 22 18-22 18m358-36 22 18-22 18" stroke="#7fdbca"/>
+  </g>
+  <g fill="#d8dee9" font-family="system-ui, sans-serif" text-anchor="middle">
+    <text x="220" y="315" font-size="28">INPUT</text>
+    <text x="220" y="355" font-size="20">sensor data</text>
+    <text x="600" y="315" font-size="28">PROCESS</text>
+    <text x="600" y="355" font-size="20">your logic</text>
+    <text x="980" y="315" font-size="28">OUTPUT</text>
+    <text x="980" y="355" font-size="20">result or interface</text>
+  </g>
+  <text x="600" y="125" fill="#7fdbca" font-family="system-ui, sans-serif" font-size="34" text-anchor="middle">Replace this sample with your project media</text>
+</svg>

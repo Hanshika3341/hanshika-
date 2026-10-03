@@ -1,0 +1,105 @@
+{
+  "site": {
+    "name": "Your Name",
+    "title": "Your Name — Engineering Portfolio",
+    "tagline": "A short sentence about the work you want to do.",
+    "email": "you@example.com",
+    "location": "Your City, State",
+    "status": "Open to opportunities",
+    "resume": "",
+    "templateCredit": {
+      "href": "https://github.com/Tmino1/engineering-portfolio-template",
+      "label": "Portfolio workshop starter by Travis Minor"
+    }
+  },
+  "about": {
+    "heading": "About",
+    "paragraphs": [
+      "Introduce yourself here. Describe the kind of engineer, designer, researcher, or builder you are.",
+      "Add a second paragraph about a project, team, class, or problem that matters to you."
+    ],
+    "looking": "Use this space to say what you are looking for, such as an internship, collaborator, or full-time role.",
+    "profile": {
+      "Based in": "Your City, State",
+      "Studying": "Your degree or program",
+      "Graduating": "Month Year",
+      "Focus": "Your technical interests"
+    }
+  },
+  "skills": [
+    {
+      "group": "Languages",
+      "items": [
+        { "name": "Python", "level": "intermediate" },
+        { "name": "JavaScript", "level": "intermediate" }
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        { "name": "Git", "level": "intermediate" },
+        { "name": "CAD or design tool", "level": "beginner" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "bridge-monitor",
+      "order": 1,
+      "name": "Bridge Monitor",
+      "description": "A fictional sample project that shows how a project card, detail page, tags, technical specifications, links, caption, and project image fit together. Replace each field with your own work.",
+      "tags": ["Python", "Sensors", "Data visualization"],
+      "links": {
+        "github": "https://github.com/your-username/your-project",
+        "live": { "href": "https://example.com", "label": "Live demo" }
+      },
+      "captions": {
+        "01-system-diagram.svg": "A neutral sample diagram. Add your own web-ready images to this project's folder."
+      },
+      "status": "prototype",
+      "dates": "2026",
+      "specs": {
+        "Role": "Your role",
+        "Platform": "Web, hardware, research, or another context"
+      }
+    },
+    {
+      "slug": "soil-sensor",
+      "order": 2,
+      "name": "Soil Sensor",
+      "description": "A second fictional project without an image. It demonstrates that project images are optional and gives you a starting point for another project entry.",
+      "tags": ["Embedded systems", "C++"],
+      "links": { "github": "" },
+      "status": "complete",
+      "dates": "2025",
+      "specs": {
+        "Role": "Your role"
+      }
+    }
+  ],
+  "education": {
+    "degree": "Your degree",
+    "minors": "Your concentration or minor",
+    "school": "Your school",
+    "start": "2024-08",
+    "end": "2028-05"
+  },
+  "experience": [
+    {
+      "role": "Your role",
+      "org": "Organization or team",
+      "location": "City, State or Remote",
+      "start": "2025-06",
+      "end": "Present",
+      "bullets": [
+        "Start each bullet with an action verb and describe what you made, improved, or learned.",
+        "Use a second bullet for an outcome, responsibility, or technical detail."
+      ]
+    }
+  ],
+  "contact": [
+    { "label": "Email", "url": "mailto:you@example.com", "icon": "mail" },
+    { "label": "GitHub", "url": "https://github.com/your-username", "icon": "github" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/your-profile", "icon": "linkedin" }
+  ]
+}
