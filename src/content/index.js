@@ -1,5 +1,6 @@
 import photos from 'virtual:project-photos'
 import content from './content.json'
+import { publicAsset } from '../utils/publicAsset'
 
 export const site = content.site
 export const about = content.about
@@ -11,7 +12,7 @@ const withImages = (project) => {
   const sources = project.images ?? photos[project.slug] ?? []
   const captions = project.captions ?? {}
   return sources.map((src) => ({
-    src,
+    src: publicAsset(src),
     caption: captions[src.slice(src.lastIndexOf('/') + 1)] ?? '',
   }))
 }

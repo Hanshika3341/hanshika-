@@ -40,7 +40,7 @@ export default function projectPhotos() {
         const files = all
           .filter((file) => IMAGE_EXT.test(file))
           .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-        return [slug, files.map((file) => `/projects/${slug}/${file}`)]
+        return [slug, files.map((file) => `projects/${slug}/${file}`)]
       }),
     )
 

@@ -1,6 +1,7 @@
 {
   "site": {
     "name": "Your Name",
+    "photo": "",
     "title": "Your Name — Engineering Portfolio",
     "tagline": "A short sentence about the work you want to do.",
     "email": "you@example.com",

@@ -34,14 +34,17 @@ Add a matching entry under that project's `captions` field when you want a capti
 
 Update the title in `index.html` and replace `public/favicon.svg` with your own SVG favicon. You can also set `site.photo` to a path such as `/profile.jpg` after adding that image to `public/`.
 
+Paths to files in `public/` may start with `/` or omit it. The starter adds the correct repository path when it builds for GitHub Pages.
+
 The default footer includes a link to this workshop starter. Keep it to make your project visibly connected to the workshop, or remove `site.templateCredit` from `content.json` when you are ready to remove it.
 
 ## Publish your site
 
 1. In GitHub Desktop, review your changes, write a short commit message, and click **Commit to main**.
 2. Click **Push origin**.
-3. On your fork's GitHub page, open **Settings** → **Pages**. Under **Build and deployment**, select **GitHub Actions** as the source.
-4. Open the **Actions** tab and wait for **Deploy to GitHub Pages** to finish. The deployment link appears in the successful job and under **Settings** → **Pages**.
+3. On your fork's GitHub page, open the **Actions** tab. If GitHub asks you to enable workflows for the fork, confirm that you understand the workflows and enable them.
+4. Open **Settings** → **Pages**. Under **Build and deployment**, select **GitHub Actions** as the source.
+5. Return to the **Actions** tab and wait for **Deploy to GitHub Pages** to finish. The deployment link appears in the successful job and under **Settings** → **Pages**.
 
 Future pushes to `main` redeploy the site automatically.
 

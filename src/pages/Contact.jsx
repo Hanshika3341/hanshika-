@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { site, about, contact } from '../content'
 import Icon from '../components/ui/Icon'
 import IconLink from '../components/ui/IconLink'
+import { publicAsset } from '../utils/publicAsset'
 import './Contact.css'
 
 // show the address, not the scheme: mailto:me@x.com reads as me@x.com
@@ -61,7 +62,7 @@ export default function Contact() {
       {/* only rendered once a résumé is actually in public/ */}
       {site.resume && (
         <div className="contact-actions">
-          <IconLink href={site.resume} icon="documentation">
+          <IconLink href={publicAsset(site.resume)} icon="documentation">
             Résumé (PDF)
           </IconLink>
         </div>

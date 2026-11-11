@@ -1,5 +1,6 @@
 import { site, about, skills, contact } from '../content'
 import Icon from '../components/ui/Icon'
+import { publicAsset } from '../utils/publicAsset'
 import './Home.css'
 
 // the profile table: personal details first, then one row per skill group
@@ -17,7 +18,7 @@ export default function Home() {
           <p className="hero-tagline">{site.tagline}</p>
         </div>
         {site.photo ? (
-          <img className="hero-photo" src={site.photo} alt={site.name} />
+          <img className="hero-photo" src={publicAsset(site.photo)} alt={site.name} />
         ) : (
           <div className="hero-photo hero-photo--placeholder" aria-hidden="true">
             Photo
